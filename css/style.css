@@ -1,0 +1,124 @@
+*,:before,:after{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.modal{
+  position:fixed;
+  background:rgba(0,0,0,0.8);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:101;
+}
+
+.show_modal{
+  transition:top 0.5s ease-in-out 0.5s,bottom 0.5s ease-in-out 0.5s,
+  left 0.5s ease-in-out 0s,right 0.5s ease-in-out 0s;
+}
+.exit_modal{
+  transition:top 0.5s ease-in-out 0.5s,bottom 0.5s ease-in-out 0.5s,
+  left 0.5s ease-in-out 1s,right 0.5s ease-in-out 1s;
+  top:calc(50% - 5px);
+  bottom:calc(50% - 5px);
+  right:50%;
+  left:50%;
+}
+.modal .modal_box{
+  background-color: #fff;
+  width:600px;
+  margin:150px auto;
+  border-radius: 10px;
+}
+.show_modal .modal_box{
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+  transform:scale(1);
+}
+.exit_modal .modal_box{
+   transform:scale(1);
+   transition-duration: 0.5s;
+    transform:scale(0);
+    /*-webkit-animation-name: close; 
+    -webkit-animation-duration: 0.5s; 
+    animation-name: close;
+    animation-duration: 0.5s;*/
+}
+.modal_box .close_modal{
+  padding:15px;
+  text-align: right;
+}
+.modal_box .close_modal i:hover{
+  color:blue;
+}
+.modal_box .close_modal i{
+  cursor:pointer;
+  font-size: 18px;
+}
+.header_res{
+  text-align: center;
+  width:200px;
+  padding:10px;
+  margin:auto;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.content_res{
+  width:100%;
+  height:400px;
+  overflow: auto;
+  margin-top:20px;
+  padding: 0 10px;
+}
+.content_res table{
+  width:100%;
+  margin:auto;
+  border-collapse: collapse;
+  border:2px solid #333 ;
+}
+.content_res table td,th{
+  margin:auto;
+  text-align: center;
+  padding:10px 5px;
+  border:2px solid #333 ;
+ 
+}
+.content_res table td{
+   border-top:2px solid #333;
+}
+.content_res table .first_col{
+  width:80px;
+  text-align: right;
+  border-left:none;
+}
+
+@keyframes close {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.first {
+  width: 20px;
+}
+
+.us {
+  padding: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.us-tags, .us a {
+  width: 20px;
+  display: inline;
+  font-style: italic;
+  font-color: gray;
+  font-size: 80%;
+}
+

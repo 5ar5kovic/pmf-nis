@@ -1,0 +1,168 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+	.container {
+		width: 100%;
+		height: 100%;
+		/*background-color: #D7DADB;*/
+		background-color: #2C3E50;
+		 background-image: url("../img/background.jpeg");
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+		.container-in {
+			width: 80%;
+			text-align: center;
+			margin-left: 10%;
+			height: 100%;
+		}	
+
+			.container-in .search-bar {
+				padding-top: 10px;
+			}
+
+			.container-in .con-box {
+				background-color: black;
+				opacity: 0.9;
+				padding-bottom: 200px;
+			}
+
+			.con-box h4 {
+				padding-top: 40px;
+				margin-top: 0;
+				color: #fff;
+				letter-spacing: 7px;
+			}
+
+			.con-box h2 {
+				padding-top: 80px;
+				margin-top: 0;
+				color: #fff;
+				letter-spacing: 7px;
+			}
+
+
+				.container-in .search-bar .boxq {
+				    width: 130px;
+				    box-sizing: border-box;
+				    border: 2px solid #ccc;
+				    border-radius: 4px;
+				    font-size: 16px;
+				    background-color: white;
+				    background-position: 10px 10px; 
+				    background-repeat: no-repeat;
+				    padding: 12px 20px 12px 40px;
+				    -webkit-transition: width 0.4s ease-in-out;
+				    transition: width 0.4s ease-in-out;
+				}
+
+				.is {
+					width: 80%;
+				    box-sizing: border-box;
+				    border: 2px solid #ccc;
+				    border-radius: 4px;
+				    font-size: 16px;
+				    background-color: white;
+				    background-position: 10px 10px; 
+				    background-repeat: no-repeat;
+				    padding: 12px 20px 12px 40px;
+				}
+
+				.container-in .search-bar input[type=text]:focus {
+				    width: 80%;
+				}
+				
+				
+
+			.btn-container {
+				padding-top: 150px;
+				z-index:100;
+			}	
+				.btn {
+				  -webkit-border-radius: 17;
+				  -moz-border-radius: 17;
+				  border-radius: 17px;
+				  font-family: Courier New;
+				  color: #000;
+				  font-size: 17px;
+				  background: #D7DADB ;
+				  padding: 7px 20px 7px 20px;
+				  text-decoration: none;
+				}
+
+				.btn:hover {
+				  background: #CCC !important;
+				  text-decoration: none;
+				  color: black !important;
+				  cursor: pointer;
+				}
+
+				/* Bob */
+				@-webkit-keyframes hvr-bob {
+				  0% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				  50% {
+				    -webkit-transform: translateY(-4px);
+				    transform: translateY(-4px);
+				  }
+				  100% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				}
+				@keyframes hvr-bob {
+				  0% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				  50% {
+				    -webkit-transform: translateY(-4px);
+				    transform: translateY(-4px);
+				  }
+				  100% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				}
+				@-webkit-keyframes hvr-bob-float {
+				  100% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				}
+				@keyframes hvr-bob-float {
+				  100% {
+				    -webkit-transform: translateY(-8px);
+				    transform: translateY(-8px);
+				  }
+				}
+				.hvr-bob {
+				  display: inline-block;
+				  vertical-align: middle;
+				  -webkit-transform: perspective(1px) translateZ(0);
+				  transform: perspective(1px) translateZ(0);
+				  box-shadow: 0 0 1px transparent;
+				}
+				.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+				  -webkit-animation-name: hvr-bob-float, hvr-bob;
+				  animation-name: hvr-bob-float, hvr-bob;
+				  -webkit-animation-duration: .3s, 1.5s;
+				  animation-duration: .3s, 1.5s;
+				  -webkit-animation-delay: 0s, .3s;
+				  animation-delay: 0s, .3s;
+				  -webkit-animation-timing-function: ease-out, ease-in-out;
+				  animation-timing-function: ease-out, ease-in-out;
+				  -webkit-animation-iteration-count: 1, infinite;
+				  animation-iteration-count: 1, infinite;
+				  -webkit-animation-fill-mode: forwards;
+				  animation-fill-mode: forwards;
+				  -webkit-animation-direction: normal, alternate;
+				  animation-direction: normal, alternate;
+				}

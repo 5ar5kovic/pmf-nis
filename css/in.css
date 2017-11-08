@@ -1,0 +1,76 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+*{
+	box-sizing: border-box;
+
+}
+body {
+	overflow: hidden;
+}
+.container-l {
+	background: url("../img/pic12s.jpg");
+	width: 50%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	float: left;
+}
+
+.container-r {
+	background: url("../img/pic22s.jpg");
+	width: 50%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	float:left;
+}
+
+.container-l:hover {
+	background-image: url("../img/pic1s.jpg")
+}
+
+.container-r:hover {
+	background-image: url("../img/pic2s.jpg")
+}
+
+.text {
+	position: relative;
+	top: 46%;
+	transform: translateY(-50%); 
+	text-align: center;  
+}
+
+.text p {
+	text-decoration: none !important;
+	font-style: bold !important;
+	color: white !important;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.links {
+	text-decoration: none !important;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 10px;
+	width: 100px;
+	margin: 15px auto;
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
+
+.links:hover {
+	text-decoration: none !important;
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 10px;
+	width: 100px;
+	margin: 15px auto;
+	padding: 15px;
+	text-align: center;
+	color: white;
+}

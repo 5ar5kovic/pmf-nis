@@ -1,30 +1,29 @@
-Aplikacija CodeStack
+# Aplikacija CodeStack
 
-Tim ÑPMF Nisî
+## Tim "PMF Nis"
 
-Clanovi tima:
+**ƒålanovi tima:**
 
-Ivan Stoöic
-Lazar Stamenkovic
-Natalija Puûic
-Petar Petkovic
+* Ivan Stoƒáic
+* Lazar Stamenkovic
+* Natalija Pu≈æic
+* Petar Petkovic
 
 
-Cilj aplikacije je da olaköa poslodavcima pronalaûenje "pravih" kandidata za otvorenu poziciju u njihovoj firmi, kao i da se omoguci korisnicima öto bolju selekciju firme prema njihovim znanjima...
+Cilj aplikacije je da olak≈°a poslodavcima pronala≈æenje "pravih" kandidata za otvorenu poziciju u njihovoj firmi, kao i da se omoguci korisnicima ≈°to bolju selekciju firme prema njihovim znanjima...
 
-Korisnik moûe da pretraûuje bazu prema tehnologijama koje poznaje, a poslodavac moûe da pretraûuje korisnike prema tehnologijama koje su im potrebne za slobodnu poziciju.
-Pored toga kompanija moûe da postavi oglas koji ce biti vidljiv svim korisnicima. Za pronalaûenje najboljeg podudaranja koristi se algoritam koji vrednuje tehnologije po redosledu u kojem su unete.
+Korisnik mo≈æe da pretra≈æuje bazu prema tehnologijama koje poznaje, a poslodavac mo≈æe da pretra≈æuje korisnike prema tehnologijama koje su im potrebne za slobodnu poziciju. Pored toga kompanija mo≈æe da postavi oglas koji ce biti vidljiv svim korisnicima. Za pronala≈æenje najboljeg podudaranja koristi se algoritam koji vrednuje tehnologije po redosledu u kojem su unete.
 
-Tehnologije:
+**Tehnologije:**
 
-HTML/CSS
-Bootstrap
-Javascript
-JQuery
-Ajax
-PHP
+* HTML/CSS
+* Bootstrap
+* Javascript
+* JQuery
+* Ajax
+* PHP
 
-Uputstvo za pokretanje:
+**Uputstvo za pokretanje:**
 
-1) importovati bazu na odgovarajuci server
+1) Importovati bazu na odgovarajuci server
 2) let's get ready to rumble!!! (index je u html/index.php)

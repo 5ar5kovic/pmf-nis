@@ -4,10 +4,10 @@
 
 **Članovi tima:**
 
-* Ivan Stoćic
-* Lazar Stamenkovic
-* Natalija Pužic
-* Petar Petkovic
+* Ivan Stošić
+* Lazar Stamenković
+* Natalija Pužić
+* Petar Petković
 
 
 Cilj aplikacije je da olakša poslodavcima pronalaženje "pravih" kandidata za otvorenu poziciju u njihovoj firmi, kao i da se omoguci korisnicima što bolju selekciju firme prema njihovim znanjima...
